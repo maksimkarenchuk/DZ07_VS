@@ -35,7 +35,7 @@ int[,] FillArray(int m, int n)
 
 void Position(int[,] array)
 {
-            Console.Write("Введите строу двумерного массива ");
+            Console.Write("Введите строку двумерного массива ");
             int poz1 = Convert.ToInt32(Console.ReadLine()) - 1;
             Console.Write("Введите столбец двумерного массива ");
             int poz2 = Convert.ToInt32(Console.ReadLine()) - 1;
